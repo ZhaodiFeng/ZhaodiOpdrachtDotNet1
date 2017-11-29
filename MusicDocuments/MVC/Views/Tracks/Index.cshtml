@@ -1,0 +1,74 @@
+﻿@using Model
+@using MVC.Models
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Track
+        </th>
+        <th>
+            ReleaseDate
+        </th>
+        <th>
+            Downloads
+        </th>
+        <th>
+            Duration
+        </th>
+        <th>Artists</th>
+        <th>Genres</th>
+        <th>Albums</th>
+        <th></th>
+    </tr>
+
+@foreach (TrackDetailsTemplate item in ViewBag.Tracks) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Track.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Track.ReleaseDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Track.Downloads)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Track.Duration)
+        </td>
+        <td>
+            @foreach (Artist a in item.Artists)
+            {
+                @Html.ActionLink(a.Name, "Details", "Artists",new { id = a.Id },null)
+            }
+        </td>
+        <td>
+            @foreach (Genre g in item.Genres)
+            {
+                @Html.ActionLink(g.Name, "Details", "Genres",new { id = g.Id },null)
+            }
+        </td>
+        <td>
+            @foreach (Album a in item.Albums)
+            {
+                @Html.ActionLink(a.Name, "Details", "Albums",new { id = a.Id },null)
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Track.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Track.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Track.Id })
+        </td>
+    </tr>
+  
+}
+
+</table>

@@ -1,0 +1,81 @@
+﻿@using Model
+@model Model.Track
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Track</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Downloads)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Downloads)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Duration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duration)
+        </dd>  
+        <dt>
+            Artists
+        </dt>
+        <dd>
+            @foreach (Artist a in ViewBag.Artists)
+            {
+                @Html.ActionLink(a.Name,"Details","Artists",new {id=a.Id},null)
+               
+            }
+        </dd>
+        <dt>
+            Genres
+        </dt>
+        <dd>
+            @foreach (Genre g in ViewBag.Genres)
+            {
+                @Html.ActionLink(g.Name,"Details","Genres",new {id=g.Id},null)
+            }
+        </dd>
+        <dt>
+            Albums
+        </dt>
+        <dd>
+            @foreach (Album a in ViewBag.Albums)
+            {
+                @Html.ActionLink(a.Name, "Details", "Albums", new { id = a.Id }, null)
+            }
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+0

@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "A Music DB";
+}
+
+<div class="jumbotron">
+    <h1>A Music DB</h1>
+    <p class="lead">This is a simple music database.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <p>@Html.ActionLink("Artists", "Index", "Artists")</p>
+    </div>
+    <div class="col-md-4">
+        <p>@Html.ActionLink("Genres", "Index", "Genres")</p>
+    </div>
+    <div class="col-md-4">
+        <p>@Html.ActionLink("Publishers", "Index", "Publishers")</p>
+    </div>
+    <div class="col-md-4">
+        <p>@Html.ActionLink("Tracks", "Index", "Tracks")</p>
+    </div>
+    <div class="col-md-4">
+        <p>@Html.ActionLink("Albums", "Index", "Albums")</p>
+    </div>
+
+</div>

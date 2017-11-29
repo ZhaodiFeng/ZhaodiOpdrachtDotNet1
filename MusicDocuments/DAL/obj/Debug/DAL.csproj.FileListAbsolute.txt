@@ -1,0 +1,14 @@
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\DAL.dll.config
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\DAL.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\DAL.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\EntityFramework.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\Model.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\Model.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\EntityFramework.xml
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\obj\Debug\DAL.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\obj\Debug\DAL.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\obj\Debug\DAL.Migrations.Init.resources
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache

@@ -1,0 +1,86 @@
+﻿@using Microsoft.Ajax.Utilities
+@model MVC.Models.AlbumEditTemplate
+
+@{
+    ViewBag.Title = "Create";
+}
+
+@{
+    Func<dynamic, HelperResult> addTrack = @<div class="form-group" id="tracksForm">
+                                               @Html.LabelFor(model => model.Tracks[0].Track, "Tracks" + 1, htmlAttributes: new {@class = "control-label col-md-2"})
+                                               <div class="col-md-10">
+                                                   @Html.DropDownListFor(model => model.Tracks[0].Track.Id, ViewBag.TracksList as SelectList, htmlAttributes: new {@class = "form-control"})
+                                                   @Html.HiddenFor(model => model.Tracks[0].Track.Name, htmlAttributes: new {Value = "Ignored"})
+                                                   @Html.HiddenFor(model => model.Tracks[0].Sequnce, htmlAttributes: new {Value = 1})
+                                               </div>
+                                           </div>;
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Album</h4>
+        <hr/>
+        @Html.ValidationSummary(true, "", new {@class = "text-danger"})
+        <div class="form-group">
+            @Html.LabelFor(model => model.Album.Name, htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Album.Name, new {htmlAttributes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.Album.Name, "", new {@class = "text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Album.ReleaseDate, htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Album.ReleaseDate, new {htmlAttributes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.Album.ReleaseDate, "", new {@class = "text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Album.Description, htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Album.Description, new {htmlAttributes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.Album.Description, "", new {@class = "text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Publishers, "Publishers", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.ListBox("Publishers", ViewBag.Publishers as MultiSelectList, htmlAttributes: new {@class = "form-control"})
+                @Html.ValidationMessageFor(model => model.Publishers, "", new {@class = "text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group" id="tracksForm">
+            @for (int i=0;i<10;i++)
+            {
+                @Html.LabelFor(model => model.Tracks[i].Track, "Tracks" + i, htmlAttributes: new {@class = "control-label col-md-2"})
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.Tracks[i].Track.Id, ViewBag.TracksList as SelectList, htmlAttributes: new {@class = "form-control"})
+                    @Html.HiddenFor(model => model.Tracks[i].Track.Name, htmlAttributes: new {Value = "Ignored"})
+                    @Html.HiddenFor(model => model.Tracks[i].Sequnce, htmlAttributes: new {Value = i})
+                </div>
+            }
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default"/>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script>
+    var i = 0;
+</script>

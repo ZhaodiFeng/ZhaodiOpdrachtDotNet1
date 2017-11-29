@@ -1,0 +1,14 @@
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\MusicRepository.dll.config
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\MusicRepository.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\MusicRepository.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\DAL.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\EntityFramework.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\Model.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\DAL.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\Model.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\EntityFramework.xml
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\obj\Debug\MusicRepository.csprojResolveAssemblyReference.cache
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\obj\Debug\MusicRepository.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\MusicRepository\obj\Debug\MusicRepository.pdb

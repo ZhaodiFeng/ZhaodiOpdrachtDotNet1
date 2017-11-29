@@ -1,0 +1,16 @@
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\TestBench.exe.config
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\TestBench.exe
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\TestBench.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\Model.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\MusicRepository.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\DAL.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\EntityFramework.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\Model.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\MusicRepository.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\DAL.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\EntityFramework.xml
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\obj\Debug\TestBench.csprojResolveAssemblyReference.cache
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\obj\Debug\TestBench.exe
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\obj\Debug\TestBench.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\TestBench\bin\Debug\EntityFramework.SqlServer.xml

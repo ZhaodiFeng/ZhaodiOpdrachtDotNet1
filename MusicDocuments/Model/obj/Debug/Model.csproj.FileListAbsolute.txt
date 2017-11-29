@@ -1,0 +1,10 @@
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\bin\Debug\Model.dll.config
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\bin\Debug\Model.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\bin\Debug\Model.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\bin\Debug\EntityFramework.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\bin\Debug\EntityFramework.xml
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\obj\Debug\Model.dll
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\obj\Debug\Model.pdb
+C:\Users\fengz\Desktop\Hoogeronderwijs\AP\2017-2018\DotNet1\MusicDocuments\MusicDocuments\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
